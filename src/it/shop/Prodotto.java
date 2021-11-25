@@ -95,7 +95,7 @@ public class Prodotto {
 	}
 	
 	//metodo per stampare tutte le info del prodotto
-	void infoProdotto() {
+	public void infoProdotto() {
 		System.out.println("Codice ID prodotto: " + getCodice());
 		System.out.println("Nome prodotto: " + getNome());
 		System.out.println("Nome esteso prodotto: " + nomeEsteso());
